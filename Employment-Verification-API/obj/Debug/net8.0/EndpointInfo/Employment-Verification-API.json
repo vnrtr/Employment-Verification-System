@@ -1,0 +1,66 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Employment-Verification-API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Employee/verify-employment": {
+      "post": {
+        "tags": [
+          "Employee"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "VerifyRequest": {
+        "required": [
+          "companyName",
+          "verificationCode"
+        ],
+        "type": "object",
+        "properties": {
+          "employeeID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "companyName": {
+            "type": "string",
+            "nullable": true
+          },
+          "verificationCode": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
