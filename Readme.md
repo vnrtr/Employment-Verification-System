@@ -25,15 +25,15 @@ The API runs at http://localhost:5258.
 
 Navigate to the employment-verification folder.
 Run:
-`npm run dev`
+`npm run dev` for Development Enviornment. To run Production Environment, Run: `npm run build` to create the Production Build and Then Run: `npm run start`
 The frontend runs at http://localhost:3000.
 
 ## Sample Data
 
 | Employee ID   | Company name  |Verification code|
 | ------------- |:-------------:|:-------------:  |
-| 1             | HCLTech       | 12345           |
-| 2             | cisive        | abcde           |
+| 1             | cisive        | 12345           |
+| 2             | HCLTech       | abcde           |
 | 3             | DishTV        | ASDFG           |
 | 4             | Youth4work    | 08642           |
 | 5             | ALCHEMY       | AD468           |

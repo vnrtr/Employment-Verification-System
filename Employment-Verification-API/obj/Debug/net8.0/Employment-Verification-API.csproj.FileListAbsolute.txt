@@ -42,4 +42,4 @@ D:\Practice\Employment Verification System\Employment-Verification-API\obj\Debug
 D:\Practice\Employment Verification System\Employment-Verification-API\obj\Debug\net8.0\Employment-Verification-API.pdb
 D:\Practice\Employment Verification System\Employment-Verification-API\obj\Debug\net8.0\Employment-Verification-API.genruntimeconfig.cache
 D:\Practice\Employment Verification System\Employment-Verification-API\obj\Debug\net8.0\ref\Employment-Verification-API.dll
-D:\Practice\Employment Verification System\Employment-Verification-API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Practice\Employment Verification System\Employment-Verification-API\obj\Debug\net8.0\Employment-Verification-API.sourcelink.json
