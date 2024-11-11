@@ -25,7 +25,7 @@ The API runs at http://localhost:5258.
 
 Navigate to the employment-verification folder.
 Run:
-`npm run dev` for Development Enviornment. To run Production Environment, Run: `npm run build` to create the Production Build and Then Run: `npm run start`
+`npm run dev` for Development Enviornment. To run Production Environment, Run: `npm run build` to create the Production Build and Then Run: `npm run start`.
 The frontend runs at http://localhost:3000.
 
 ## Sample Data
